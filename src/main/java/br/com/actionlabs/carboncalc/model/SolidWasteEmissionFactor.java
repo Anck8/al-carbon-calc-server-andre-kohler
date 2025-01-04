@@ -7,7 +7,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document("solidWasteEmissionFactor")
 public class SolidWasteEmissionFactor {
-  @Id private String uf;
+  @Id
+  private String uf;
   private double recyclableFactor;
   private double nonRecyclableFactor;
 }

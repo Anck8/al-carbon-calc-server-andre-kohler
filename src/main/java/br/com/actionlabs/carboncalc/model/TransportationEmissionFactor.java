@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @Document("transportationEmissionFactor")
 public class TransportationEmissionFactor {
-  @Id private TransportationType type;
+  @Id
+  private TransportationType type;
   private double factor;
 }

@@ -10,5 +10,6 @@ public class UpdateCalcInfoRequestDTO {
   private int energyConsumption;
   private List<TransportationDTO> transportation;
   private int solidWasteTotal;
+  /** from 0 to 1.0 percentage of recyclable solid waste */
   private double recyclePercentage;
 }
